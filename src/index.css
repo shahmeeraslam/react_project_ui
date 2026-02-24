@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+/* 🌲 WOOD STYLE SCROLLBAR - COMPLETE CODE */
+
+/* width */
+html{
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* track */
+::-webkit-scrollbar-track {
+  background: #3b2414; /* dark wood */
+}
+
+/* thumb */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(
+    180deg,
+    #a8743a,
+    #8b5a2b,
+    #6e4420,
+    #a8743a
+  );
+  border-radius: 8px;
+  border: 2px solid #2b1a0f;
+  box-shadow: inset 0 0 5px rgba(0,0,0,0.5);
+}
+
+/* hover */
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(
+    180deg,
+    #c58a45,
+    #9b6a35,
+    #c58a45
+  );
+}
