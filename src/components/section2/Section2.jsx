@@ -20,7 +20,7 @@ const Section2 = (props) => {
           />
         ))}
       </div>
-            <div className='flex  md:hidden flex-wrap gap-2.5 w-full justify-center absolute bottom-160  '>
+            <div className='flex  md:hidden flex-wrap gap-2.5 w-full justify-center absolute bottom-180  '>
         {props.user2.map(( data , index ) => (
           <Herocard 
              key ={index}
