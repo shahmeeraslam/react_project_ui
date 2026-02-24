@@ -16,7 +16,7 @@ import Footer from './components/section8/Footer'
 const App = (props) => {
 
   return (
-    <div className='flex flex-col md:gap-20 gap-55 overflow-hidden text-white bg-[#2B1A12]'>
+    <div className='flex flex-col md:gap-20 gap-60 overflow-hidden text-white bg-[#2B1A12]'>
         <Section1   />
         <Section2 user1={heroCardData} user2={xsheroCardData} />
         <Quality user3={palletQualityData} />

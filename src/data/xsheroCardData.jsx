@@ -34,18 +34,7 @@ const xsheroCardData = [
     title: "Fast Delivery",
     description:
       "Efficient production ensures quick delivery across the country."
-  },
-
-  {
-    icon: <RiShieldCheckFill  />,
-    color: "#D4A537",
-    bg: "#2A1A12",         // espresso
-    title: "Reliable Strength",
-    description:
-      "Built to handle heavy industrial loads safely and securely."
-  },
-
-  
+  }
 ];
 
 export default xsheroCardData;
